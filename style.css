@@ -16,7 +16,7 @@ text-align: center;
 color: #fff;
 }
 body{
-background: linear-gradient(60deg,#16213E,#FE7e60,#e94560);
+background: linear-gradient(60deg,#646464,#16213E,#FE7e60,#e94560);
 background-size: 500%;
 animation: gradientAnimation 3s case infinite;
 }
