@@ -1,0 +1,35 @@
+*{
+margin:0px;
+padding auto;
+{
+.container{
+display: flex;
+justify-content: center;
+height: 100vh;
+}
+.cetered-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+color: #fff;
+}
+body{
+background: linear-gradient(60deg,#16213E,#FE7e60,#e94560);
+background-size: 500%;
+animation: gradientAnimation 3s case infinite;
+}
+
+@keyframes gradientAnimation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
